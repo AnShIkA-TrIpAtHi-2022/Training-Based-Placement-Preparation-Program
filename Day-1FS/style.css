@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scrollbar-width: none;
+}
+header{
+    height: 500px;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 15px;
+    color: black;
+    position: sticky;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.section-1{
+    height: 400px;
+    position: relative;
+    opacity: 0.7;
+}
+.section-1 .bkg{
+    width: 100%;
+    position: absolute;
+    top: -300px;
+    left: 0;
+}
+.section-1 .head{
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.852);
+    color: white;
+    padding: 7px 0;
+    width: 500px;
+    text-align: center;
+}
+.section-2{
+    color: grey;
+    margin: 20px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 h1{
+    font-weight: 300;
+    font-size: 35px;
+}
+.section-2 h3{
+    font-weight: 200;
+    font-style: italic;
+}
+.section-2 p{
+    font-size: large;
+    line-height: 32px;
+}
+
+.section-3{
+    color: grey;
+    margin: 20px 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.section-3 div img{
+    opacity: 0.7;
+    transform: scale(0.8);
+}
+.section-3 div img:hover{
+    opacity: 1;
+}
+.section-3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-3 div p{
+    font-size: large;
+    line-height: 32px;
+}
+
+.section-4{
+    color: grey;
+    margin: 20px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.section-4 h1{
+    font-weight: 300;
+    text-align: center;
+}
+.section-4 .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section-4 .container .head{
+    font-size: 15px;
+    letter-spacing: 15px;
+}
+.section-4 .container .bar{
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(219, 216, 216);
+}
+.card-1 .black{
+    width: 90%;
+    height: inherit;
+    background-color: rgb(102, 101, 101);
+}
+.card-2 .black{
+    width: 85%;
+    height: inherit;
+    background-color: rgb(102, 101, 101);
+}
+.card-3 .black{
+    width: 75%;
+    height: inherit;
+    background-color: rgb(102, 101, 101);
+}
+.black{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-5{
+    margin: 80px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(102, 101, 101);
+    color: white;
+    margin-bottom: 0;
+}
+
+.section-6{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+.section-6 img{
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 100%;
+    opacity: 0.7;
+}
+.section-6 h1{
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-size: 40px;
+    color: white;
+    padding: 7px 0;
+    width: 500px;
+    text-align: center;
+    letter-spacing: 15px;
+}
+.section-7{
+    margin: 30px 120px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(102, 101, 101);
+}
+.section-7 h3{
+    margin: 0;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+}
