@@ -4,16 +4,19 @@ body{
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     scrollbar-width: none;
+    scroll-behavior: smooth;
 }
 header{
     height: 400px;
     overflow: hidden;
+    background-image: url('parallax1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
 }
 .navbar{
     width: 100%;
-    margin: 10px 0;
     font-size: 15px;
-    color: black;
     position: sticky;
     display: flex;
     flex-direction: row;
@@ -24,17 +27,26 @@ header{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 30px;
 }
 .navbar ul li{
     display: flex;
     flex-direction: row;
     gap: 3px;
+    padding: 10px 20px;
+    color: grey;
 }
 .navbar ul li:hover{
     color: black;
-    background-color: grey;
+    background-color: rgba(172, 171, 171, 0.721);
     cursor: pointer;
+}
+.navbar a{
+    color: grey;
+    padding: 15px 20px;
+}
+.navbar a:hover{
+    background-color: red;
+    color: white;
 }
 .section-1{
     height: 400px;
@@ -311,4 +323,39 @@ header{
     background-color: black;
     padding: 10px 17px;
     border: none;
+}
+.section-8 button:hover{
+    color: black;
+    background-color: rgb(164, 163, 163);
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: grey;
+    color: white;
+    gap: 20px;
+}
+.footer:hover{
+    background-color: black;
+}
+.footer button a{
+    font-size: 21px;
+    color: grey;
+    text-decoration: none;
+}
+.footer button{
+    padding: 10px 20px;
+}
+.footer i{
+    margin-top: 14px;
+    font-size:23px;
+}
+.footer i:hover{
+    color: rgb(200, 199, 199);
+    cursor: pointer;
 }
