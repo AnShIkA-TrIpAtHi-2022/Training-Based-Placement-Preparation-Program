@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header><section class="navbar">
         <ul>
             <li>HOME</li>
-            <li>ABOUT</li>
-            <li>PORTFOLIO</li>
-            <li>CONTACT</li>
+            <li><i class="fa fa-user"></i>ABOUT</li>
+            <li><i class="fa fa-th"></i>PORTFOLIO</li>
+            <li><i class="fa fa-envelope"></i>CONTACT</li>
         </ul>
+        <a href="#"><i class="fa fa-search"></i></a>
     </section>
 
     <section class="section-1">
@@ -41,19 +43,19 @@
         <h1>Im really good at:</h1>
         <div class="container">
             <div class="card-1">
-                <div class="head">Photography</div>
+                <div class="head"><i class="fa fa-camera"></i>Photography</div>
                 <div class="bar">
                     <div class="black">90%</div>
                 </div>
             </div>
             <div class="card-2">
-                <div class="head">Web Design</div>
+                <div class="head"><i class="fa fa-laptop"></i>Web Design</div>
                 <div class="bar">
                     <div class="black">85%</div>
                 </div>
             </div>
             <div class="card-3">
-                <div class="head">Photoshop</div>
+                <div class="head"><i class="fa fa-photo"></i>Photoshop</div>
                 <div class="bar">
                     <div class="black">75%</div>
                 </div>
@@ -103,6 +105,27 @@
     <section class="section-8">
         <h1>WHERE I WORK</h1>
         <h3>I'd love your feedback!</h3>
+        <div class="container">
+            <img src="map.jpg" alt="">
+            <div class="right">
+                <div class="details">
+                    <div><i class="fa fa-map-marker"></i>Chicago, US</div>
+                    <div><i class="fa fa-phone"></i>Phone: +00 151515</div>
+                    <div><i class="fa fa-envelope"></i>Email: mail@mail.com</div>
+                </div>
+                <div class="subhead">
+                    Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:
+                </div>
+                <div>
+                    <form action="">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </form>
+                    <input type="text" placeholder="Message">
+                </div>
+                <button><i class="fa fa-paper-plane"></i> Send Message</button>
+            </div>
+        </div>
     </section>
 </body>
 </html>

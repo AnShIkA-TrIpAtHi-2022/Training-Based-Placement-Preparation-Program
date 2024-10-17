@@ -15,12 +15,21 @@ header{
     font-size: 15px;
     color: black;
     position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 .navbar ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     gap: 30px;
+}
+.navbar ul li{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
 }
 .navbar ul li:hover{
     color: black;
@@ -30,13 +39,14 @@ header{
 .section-1{
     height: 400px;
     position: relative;
+    transform: translateZ(-100px);
 }
 .section-1 .bkg{
     width: 100%;
     position: absolute;
     top: -300px;
     left: 0;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 .section-1 .head{
     position: absolute;
@@ -160,7 +170,7 @@ header{
 
 .section-6{
     position: relative;
-    height: 500px;
+    height: 400px;
     overflow: hidden;
 }
 .section-6 img{
@@ -238,4 +248,67 @@ header{
     font-style: italic;
     font-size: 15px;
     color: grey;
+}
+
+.section-8 .container {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+}
+.section-8 .container img{
+    width: 25%;
+    border-radius: 7px;
+}
+.section-8 .container .right{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 55%;
+}
+.section-8 .container .details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+}
+.section-8 .container .details div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.section-8 .container .subhead{
+    font-size: 13px;
+}
+.section-8 form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.section-8 form input{
+    width: 47%;
+    padding: 10px 5px;
+    border-radius: 0;
+    border: 1px solid grey;
+}
+.section-8 input{
+    margin-top: 20px;
+    padding: 10px 5px;
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid grey;
+}
+.section-8 button{
+    align-self: flex-end;
+    width: fit-content;
+    font-size: 19px;
+    color: white;
+    background-color: black;
+    padding: 10px 17px;
+    border: none;
 }
