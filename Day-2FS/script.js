@@ -54,7 +54,7 @@ document.getElementById('searchBtn').addEventListener('click', ()=>{
         })
         .then(data => {
             data.filter((item)=>{
-                if(item.country.equals(query){
+                if(item.country.equals(query)){
                     resultsDiv.innerHTML += `<p>${item.name}</p>`;
                 }
             })
