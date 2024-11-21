@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/users/new">new user</a>
+    <div class="container">
+        <% for(let user of users){ %>
+            <div class="box">
+                <h1><%= user.username %></h1>
+                <h3><%= user.city %></h3>
+            </div>
+        <% } %>
+    </div>
+</body>
+</html>
